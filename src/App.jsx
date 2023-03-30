@@ -5,9 +5,11 @@ import PokemonCard from './components/PokemonCard'
 function App() {
   const pokemon = pokemonList[0]
 
-  return <div>
+  return ( 
+    <div className = 'App' >
     <PokemonCard pokemon={pokemon} />
     </div>
+  );
 }
 const pokemonList = [
   {
